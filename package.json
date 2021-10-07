@@ -1,5 +1,5 @@
 {
-  "name": "puppeteer-truepeoplesearch",
+  "name": "truepeoplesearch-puppeteer",
   "version": "1.0.0",
   "main": "lib/truepeoplesearch.js",
   "license": "MIT",
