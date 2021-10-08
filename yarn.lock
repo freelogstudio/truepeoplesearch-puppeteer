@@ -544,7 +544,7 @@ magic-string@^0.19.0:
   dependencies:
     vlq "^0.2.1"
 
-merge-deep@^3.0.1:
+merge-deep@^3.0.1, merge-deep@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.3.tgz#1a2b2ae926da8b2ae93a0ac15d90cd1922766003"
   integrity sha512-qtmzAS6t6grwEkNrunqTBdn0qKwFgNWvlxUbAV8es9M7Ot1EbyApytCnvE0jALPa46ZpKDUo527kKiaWplmlFA==
@@ -731,6 +731,15 @@ puppeteer-extra-plugin-adblocker@^2.12.0:
     "@cliqz/adblocker-puppeteer" "1.22.6"
     debug "^4.1.1"
     node-fetch "^2.6.0"
+    puppeteer-extra-plugin "^3.2.0"
+
+puppeteer-extra-plugin-recaptcha@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-extra-plugin-recaptcha/-/puppeteer-extra-plugin-recaptcha-3.5.0.tgz#53969b2618a54542cdca90a9a06dac10b2cd20d9"
+  integrity sha512-OcSc2zVbhyJ+kBPx4KRZhUbmDduD+Hw7/RXFi5e/MK8qelo/9G8/+YqzGqBAJRSYti2kJHeg3nmWd42UirbMIA==
+  dependencies:
+    debug "^4.1.1"
+    merge-deep "^3.0.2"
     puppeteer-extra-plugin "^3.2.0"
 
 puppeteer-extra-plugin-stealth@^2.8.1:
