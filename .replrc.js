@@ -1,7 +1,7 @@
-var { byPhone } = require('./');
+var { byPhone, byName } = require('./');
 const path = require('path');
 
-var scrape = async (n) => {
-  const page = await byPhone(n)
+var scrape = async ({ name, citystatezip }) => {
+  const page = await byName(name, citystatezip)
   return page;
 };
